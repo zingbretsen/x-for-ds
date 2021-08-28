@@ -4,29 +4,28 @@ const About = ({ title, description, ...props }) => {
   return (
     <>
       <Layout pageTitle={`${title} | About`} description={description}>
-        <h1 className="title">Welcome to this demo blog!</h1>
+        <h1 className="title">Welcome to X for DS!</h1>
 
         <p className="description">
-          This is a simple blog built with Next, easily deployable on{' '}
-          <a href="https://url.netlify.com/r1j6ybSYU">Netlify</a>.
+          X for DS is meant to help Data Scientists learn about tools and techniques that will complement their daily work.
         </p>
 
-        <p>
-          You can check out the{' '}
-          <a href="https://github.com/cassidoo/next-netlify-blog-starter">
-            repo here.
-          </a>{' '}
-          If you'd like to build it yourself,{' '}
-          <a href="https://url.netlify.com/ByVW0bCF8">
-            here is a tutorial on how to do so
-          </a>
-          !
+        <p className="description">
+          You may have had classes on statistics, probability, and machine learning, but probably not on git, Linux, or Docker. There are so many tools that you're supposed to just figure out on your own, but which make a huge impact on your productivity and happiness.
         </p>
 
-        <p>
-          This project includes a basic layout and header, base styles, dynamic
-          routing with getStaticPaths, and posts saved as Markdown.
+        <p className="description">
+          The goal of X for DS is to teach you, a Data Scientist, about tools that are DS-adjacent. You will learn X, where X may be:
         </p>
+
+        <ul>
+          <li>Git</li>
+          <li>Linux</li>
+          <li>Docker</li>
+          <li>Python</li>
+          <li>R</li>
+          <li>Much more!</li>
+        </ul>
       </Layout>
     </>
   )
