@@ -7,7 +7,7 @@ const About = ({ title, description, ...props }) => {
         <h1 className="title">Welcome to X for DS!</h1>
 
         <p className="description">
-          X for DS is meant to help Data Scientists learn about tools and techniques that will complement their daily work.
+          X for DS is meant to help Data Scientists fill in the blanks about tools and techniques that will complement their daily work.
         </p>
 
         <p className="description">
@@ -15,11 +15,12 @@ const About = ({ title, description, ...props }) => {
         </p>
 
         <p className="description">
-          The goal of X for DS is to teach you, a Data Scientist, about tools that are DS-adjacent. You will learn X, where X may be:
+          The goal of X for DS is to teach you about tools that are DS-adjacent. You will learn X, where X may be:
         </p>
 
         <ul>
           <li>Git</li>
+          <li>SSH</li>
           <li>Linux</li>
           <li>Docker</li>
           <li>Python</li>
