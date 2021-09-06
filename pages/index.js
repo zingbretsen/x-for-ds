@@ -1,7 +1,7 @@
 import Layout from '@components/Layout'
 import PostList from '@components/PostList'
 
-import './styles/globals.css'
+import '@styles/globals.css'
 
 import getPosts from '@utils/getPosts'
 
